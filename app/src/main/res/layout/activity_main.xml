@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.cutomview.copyapliypassword.MainActivity">
+
+    <com.cutomview.copyapliypassword.PasswordEditText
+        android:id="@+id/password_et"
+        android:layout_width="368dp"
+        android:layout_height="71dp"
+        app:passwordNumber="7"
+        app:passwordRadius="10dp"
+        app:bgCorner="10dp"
+        app:divisionLineColor="@color/colorPrimaryDark"
+        app:bgColor="@color/colorAccent"
+        android:background="@null" />
+
+    <com.cutomview.copyapliypassword.CustomerKeyboard
+        android:id="@+id/custom_key_board"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="23dp"
+        android:visibility="gone" />
+</LinearLayout>
